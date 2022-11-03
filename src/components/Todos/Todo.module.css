@@ -1,0 +1,80 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin: 15px auto;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid #555;
+  color: #112d49;
+  background-color: #fbfef9;
+  user-select: none;
+  max-width: 800px;
+}
+
+.todoText {
+  text-align: left;
+  padding: 0px 10px;
+}
+.todoTextDone {
+  text-decoration: line-through;
+}
+.todoIcon {
+  margin-right: 15px;
+  font-size: 30px;
+  color: #5f0f40;
+}
+.button {
+  cursor: pointer;
+  margin: 0px 10px;
+  width: 80px;
+  background-color: #ade8f4;
+  color: #5f0f40;
+  font-size: 15px;
+}
+.buttonSilver {
+  cursor: pointer;
+  margin: 0px 10px;
+  width: 80px;
+  background-color: silver;
+  color: #5f0f40;
+  font-size: 15px;
+}
+.numbers {
+  display: flex;
+}
+.changeProgres {
+  display: flex;
+}
+.changeProgres > input {
+  margin-right: 15px;
+}
+.changeProgres > span {
+  margin-right: 15px;
+}
+
+.button:hover {
+  background-color: #ffcfd2;
+}
+.editForm {
+  position: absolute;
+  width: 430px;
+  border-radius: 5px;
+  left: 520px;
+  top: 350px;
+
+  background-color: #ffcfd2;
+}
+.editButton {
+  background-color: #ade8f4;
+  cursor: pointer;
+}
+.editButton:hover {
+  background-color: #ffcfd2;
+  border: 1px solid #5f0f40;
+}
+.editInput {
+  width: 230px;
+  margin: 10px;
+  border: 1px solid #5f0f40;
+}
